@@ -58,7 +58,7 @@ function generateCV(){
     
     let wes=document.getElementsByClassName("weField")
 
-    let str=''
+    let str="";
 
     for(let e of wes){
         str=str+`<li> ${e.value} </li>`;
@@ -70,10 +70,19 @@ function generateCV(){
 
     let aqs=document.getElementsByClassName("aqField");
 
-    let str1='';
+    let str1="";
 
     for(let e of aqs){
         str1=str1+`<li> ${e.value} </li>`;
     }
-    document.getElementById("aqT").innerHTML=str;
+    document.getElementById("aqT").innerHTML=str1;
+
+    // form to template shift
+    document.getElementById('cv-form').style.display='none'
+    document.getElementById('cv-template').style.display='block'
+}
+
+//print CV
+function printCV(){
+    window.print();
 }

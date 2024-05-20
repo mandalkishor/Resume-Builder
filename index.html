@@ -47,19 +47,19 @@
             <h3>Professional Experience</h3>
             <div class="form-group mt-2">
                <label for="">Objective</label>
-               <textarea rows="5" placeholder="Enter here" class="form-control"></textarea>
+               <textarea id="oField" rows="5" placeholder="Enter here" class="form-control"></textarea>
             </div>
 
             <div class="form-group mt-2 " id="we">
                <label for="">Work Experience</label>
-               <textarea placeholder="Enter here" class="form-control weField"></textarea>
+               <textarea id="weField" placeholder="Enter here" class="form-control weField"></textarea>
                <div class="container text-center mt-2" id="weAddButton">
                   <button onclick="addNewWEField()" class="btn btn-primary btn-sm">Add</button>
                </div>
             </div>
             <div class="form-group mt-2" id="aq">
                <label for="">Academic Qualification</label>
-               <textarea placeholder="Enter here" class="form-control aqField"></textarea>
+               <textarea id="aqField" placeholder="Enter here" class="form-control aqField"></textarea>
                <div class="container text-center mt-3" id="aqAddButton">
                   <button onclick="addNewAQField()" class="btn btn-primary btn-sm">Add</button>
                </div>
@@ -136,7 +136,7 @@
             </div>
 
             <div class="container mt-3 text-center">
-               <button onclick="printCV" class="btn background">
+               <button onclick="printCV()" class="btn background">
                   Print CV
                </button>
             </div>

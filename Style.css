@@ -1,6 +1,9 @@
 #cv-form{
     /* display: none; */
 }
+#cv-template{
+    display: none;
+}
 .myimage{
     border-radius: 50%;
     width: 180px;

@@ -1,0 +1,11 @@
+#cv-form{
+    /* display: none; */
+}
+.myimage{
+    border-radius: 50%;
+    width: 180px;
+    height: 150px;
+}
+.background{
+    background-color: rgb(192, 129, 192);
+}
